@@ -20,6 +20,9 @@ public class ShoppingServiceImplTest {
     private final ShoppingServiceImpl shoppingService = new ShoppingServiceImpl(productDaoMock);
 
 
+    /**
+     * Тестирование получения продукта по его имени
+     */
     @Test
     public void getProductByNameTest(){
         Product product = new Product(2);
