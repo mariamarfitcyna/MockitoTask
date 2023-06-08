@@ -25,7 +25,7 @@ public class CustomerServiceTest {
      */
     @Test
     public void testAddCustomer() {
-        when(customerDaoMock.save(any(Customer.class)))
+       when(customerDaoMock.save(any(Customer.class)))
                 .thenReturn(Boolean.TRUE);
 
         Customer customer = new Customer(0, "11-11-11");

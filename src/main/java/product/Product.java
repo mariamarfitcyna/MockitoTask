@@ -7,6 +7,11 @@ package product;
  * @since 16.05.2023
  */
 public class Product {
+
+
+    public Product(int count){
+        this.count = count;
+    }
     /**
      * Название
      */
